@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>apple.com</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/HW-headers.css">
+    <style>
+        /* DISPLAY PROPERTIES */
+:root {
+    --grid-display: grid;
+    --inline-block-display: inline-block;
+    --flex-display: flex;
+}
+
+/* FONTS FAMILIES */
+:root {
+    --arial-font: arial;
+    --sans-serif-font: sans-serif;
+    --roboto-font: 'Roboto' !important;
+}
+
+/* FONT SIZES */
+:root {
+    --small-sizes: small;
+    --xsmall-sizes: x-small;
+    --large-sizes: large;
+    --xlarge-sizes: x-large;
+    --medium-sizes: medium;
+    --xxlarge-sizes: xx-large ;
+}
+
+/* FONT WEIGHTS */
+:root {
+    --bold-weight: bold;
+    --light-weight: light;
+    --bolder-weight: bolder;
+    --lighter-weight: lighter;
+}
+
+
+
+
+
+/*STYLES*/
+body {
+    margin: 0;
+}
+
+.header-div {
+    background-color: rgb(19, 19, 20)  ;
+    margin-left: -35px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.ul {
+    margin: 0;
+    
+    display: var(--flex-display);
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+
+}
+
+li {  
+    list-style-type: none;
+    color: rgb(209, 209, 209);
+    font-family: var(--roboto-font);
+    font-size: 12px;
+    font-weight: var(--lighter-weight);
+    margin-right: 37px;
+}
+
+.logo-icon{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    margin-right: 23px;
+}
+
+.search-icon {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    margin-left: -16px;
+    margin-right: 10px;
+}
+
+.cart-icon {
+    height: 35px;
+    width: 35px;
+    object-fit: cover;
+}
+
+/* HEADER IS OVER */
+/* THIS IS MAIN BODY*/
+
+.middle-body-div {
+    background-color: black;
+    padding-bottom: 80px;
+}
+
+.main-image {
+    height: 470px;
+    width: 460px;
+    padding-left: 380px;
+    padding-top: 50px;
+}
+
+.image-bottom-text {
+    display: var(--inline-block-display);
+}
+
+.logo-model {
+    padding-left: 475px;
+    height: 55px;
+    width: 290px;
+    margin-bottom: 15px;
+}
+
+.middle-text{
+    color: white;
+    font-family: var(--roboto-font);
+    font-size: var(--xlarge-sizes);
+    font-weight: var(--bold-weight);
+    margin: 0;   
+}
+
+.upper-text {
+    margin-left: 355px !important; 
+}
+.middle-text {
+    margin-left: 340px; 
+}
+.bottom-text {
+    margin-left: 370px !important; 
+    margin-bottom: 40px;
+}
+
+.body-button {
+    background-color: black;
+    border-color: white;
+    border-style: solid;
+    color: white;
+    border-width: 1px;
+    height: 50px;
+    width: 200px;
+    border-radius: 75px;
+    font-weight: var(--bold-weight);
+    display: var(--inline-block-display);
+    margin-left: 525px;
+    font-size: var(--medium-sizes);
+    padding: 15px 22px 15px 22px;
+}
+.body-button:hover {
+    background-color: white;
+    color: black;
+    font-weight: var(--light-weight);
+    letter-spacing: 0.01rem;
+}
+
+
+
+
+/* PART - 2 */
+/* PORSCHE.com */
+.images-body-div{
+    display: var(--grid-display);
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+.p {
+    font-family: arial narrow;
+    font-size:var(--xxlarge-sizes) ;
+    font-weight: var(--bold-weight);
+    padding-left: 60px;
+}
+
+.car-images {
+    height: 300px;
+    width: 410px;
+    object-fit: cover;
+}
+
+.build-your-own-btn {
+    font-family: arial narrow;
+    font-size: var(--large-sizes);
+    background-color: white;
+    color: black;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    height: 45px;
+    width: 160px;
+}
+.build-your-own-btn:hover {
+    background-color: #cf0a2c;
+    border-color: #cf0a2c;
+    color: white;
+    cursor: pointer;;
+}
+
+
+/* FOR TOP ROW */
+.position-top-1 {
+    position: absolute;
+    top: 230px;
+    left: 30px;
+}
+.position-top-2 {
+    position: absolute;
+    top: 230px;
+    left: 440px;
+}
+.position-top-3 {
+    position: absolute;
+    top: 230px;
+    left: 850px;
+}
+
+/* FOR BOTTOM ROW */
+.position-bottom-1 {
+    position: absolute;
+    top: 530px;
+    left: 30px;
+}
+.position-bottom-2 {
+    position: absolute;
+    top: 530px;
+    left: 440px;
+}
+.position-bottom-3 {
+    position: absolute;
+    top: 530px;
+    left: 850px;
+}
+
+
+
+.all-models-btn{
+    font-family: arial narrow;
+    font-size: var(--large-sizes);
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    background-color: transparent;
+    height: 45px;
+    width: 110px;
+}
+.all-models-btn:hover {
+    border-color: #cf0a2c;
+    color: #cf0a2c;
+    cursor: pointer;
+}
+
+/* FOR TOP ROW (all-models) */
+.position-top-1-all-models {
+    position: absolute;
+    top: 230px;
+    left: 200px;
+}
+.position-top-2-all-models {
+    position: absolute;
+    top: 230px;
+    left: 610px;
+}
+.position-top-3-all-models {
+    position: absolute;
+    top: 230px;
+    left: 1020px;
+}
+
+/* FOR BOTTOM ROW */
+.position-bottom-1-all-models {
+    position: absolute;
+    top: 530px;
+    left: 200px;
+}
+.position-bottom-2-all-models {
+    position: absolute;
+    top: 530px;
+    left: 610px;
+}
+.position-bottom-3-all-models {
+    position: absolute;
+    top: 530px;
+    left: 1020px;
+}
+
+
+
+/* MODEL NAMES */
+.model-name {
+    display: var(--inline-block-display);
+    font-size: var(--xxlarge-sizes);
+    font-weight: var(--bolder-weight);
+    color: white;
+}
+
+.model-name-top-1 {
+    position: absolute;
+    top: -20px;
+    left: 30px;
+}
+.model-name-top-2 {
+    position: absolute;
+    top: -20px;
+    left: 440px;
+}
+.model-name-top-3 {
+    position: absolute;
+    top: -20px;
+    left: 850px;
+}
+
+/* FOR BOTTOM ROW */
+.model-name-bottom-1 {
+    position: absolute;
+    top: 275px;
+    left: 30px;
+}
+.model-name-bottom-2 {
+    position: absolute;
+    top: 275px;
+    left: 440px;
+}
+.model-name-bottom-3 {
+    position: absolute;
+    top: 275px;
+    left: 850px;
+}
+
+
+
+
+
+
+
+
+/* Wome Work - 2.  JavaScript */
+.middle-header-container ,.middle-header-indicator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3px;
+    visibility: hidden;
+}
+
+.status-bar {
+    background-color: black;
+    height: 7px;
+    width: 7px;
+    border-radius: 7px;
+    margin-left: 3px;
+}
+
+.active {
+    font-family: var(--arial-font);
+    visibility: visible !important;
+}
+    </style>
+
+</head>
+
+<body>
+    <div class="header-div">
+        <ul class="ul">
+            <img src="../images/logo.png" class="logo-icon">
+            <li>Store</li>
+            <li>Mac</li>
+            <li>iPad</li>
+            <li>iPhone</li>
+            <li>Watch</li>
+            <li>Vision</li>
+            <li>AirPods</li>
+            <li>TV & Home</li>
+            <li>Entertainment</li>
+            <li>Accessories</li>
+            <li>Support</li>
+            <img src="../images/search-icon.png" class="search-icon">
+            <img src="../images/cart-icon.png" class="cart-icon">
+        </ul>
+    </div>
+    
+    <div class="middle-body-div">
+        <div>
+            <img src="../images/image-1.jpg" class="main-image">
+            <div>
+                <img src="../images/logo-model.png" class="logo-model">
+                <p class="middle-text upper-text">Introducing Apple Intelligence, AI for the rest of us.</p>
+                <p class="middle-text middle-text">And exciting updates coming with iOS 18, iPadOS 18,</p>
+                <p class="middle-text bottom-text">macOS Sequoia, watchOS 11, and visionOS 2.</p>
+            </div>
+            <button class="body-button">Watch the keynote</button>        
+        </div>
+    </div>
+
+<div style="margin-bottom: 100px;">
+    <div>
+        <p class="p">Models</p>
+    </div>
+    <div class="images-body-div">
+        <img src="../images/porsche-718.webp" class="car-images">
+        <img src="../images/porsche-911.webp" class="car-images">
+        <img src="../images/porsche-taycan.webp" class="car-images">
+        <img src="../images/porsche-panamera.webp" class="car-images">
+        <img src="../images/porsche-macan.webp" class="car-images">
+        <img src="../images/porsche-cayenne.webp" class="car-images">
+
+        <div>
+            <button class="build-your-own-btn position-top-1" onclick="alert('Build your own model')">Build Your Own</button>
+            <button class="build-your-own-btn position-top-2">Build Your Own</button>
+            <button class="build-your-own-btn position-top-3">Build Your Own</button>
+            <button class="build-your-own-btn position-bottom-1">Build Your Own</button>
+            <button class="build-your-own-btn position-bottom-2">Build Your Own</button>
+            <button class="build-your-own-btn position-bottom-3">Build Your Own</button>
+        </div>
+
+        <div>
+            <button class="all-models-btn position-top-1-all-models" onclick="
+                all_models = all_models+1;
+                console.log(`All Models button was clicked ${all_models} times`)
+                ">> All Models</button>
+            <button class="all-models-btn position-top-2-all-models">> All Models</button>
+            <button class="all-models-btn position-top-3-all-models">> All Models</button>
+            <button class="all-models-btn position-bottom-1-all-models">> All Models</button>
+            <button class="all-models-btn position-bottom-2-all-models">> All Models</button>
+            <button class="all-models-btn position-bottom-3-all-models">> All Models</button>
+        </div>
+
+        <div>
+            <p class="model-name model-name-top-1">718</p>
+            <p class="model-name model-name-top-2">911</p>
+            <p class="model-name model-name-top-3">Taycan</p>
+            <p class="model-name model-name-bottom-1">Panamera</p>
+            <p class="model-name model-name-bottom-2">Macan</p>
+            <p class="model-name model-name-bottom-3">Cayenne</p>
+        </div>
+    </div>
+</div>
+
+<div style="margin-bottom: 1000px;">
+    <div class="middle-header-container">
+        <div class="active">Message 1</div>
+        <div>Message 2</div>
+        <div>Message 3</div>
+        <div>Message 4</div>
+    </div>  
+    
+    <div class="middle-header-indicator">
+        <div class="active status-bar"></div>
+        <div class="status-bar"></div>
+        <div class="status-bar"></div>
+        <div class="status-bar"></div>
+    </div>
+</div>
+
+<script>
+    const ele_list = document.querySelectorAll('.middle-header-container > div');
+    const ind_list = document.querySelectorAll('.middle-header-indicator > div');
+    let current_ele = 0;
+
+    const anim_handler = () => {
+        ele_list[current_ele].className = "";
+        ind_list[current_ele].className="status-bar";
+
+        if (current_ele === ele_list.length - 1) {
+            current_ele = 0;
+        } else {
+            current_ele += 1;
+        }
+
+        ele_list[current_ele].className = "active"
+        ind_list[current_ele].className="active status-bar"
+    }
+
+    setInterval(anim_handler, 2000);
+
+    let all_models = 0;
+</script>
+
+</body>
+</html>
